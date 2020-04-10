@@ -64,3 +64,24 @@ class Student {
 		return false;
 	}
 }
+
+class Course{
+	String Student;
+	List<Student> students = new List<>();
+
+	public void addStudent(Student){
+		//TODO:add new student
+	}
+
+	public void removeStudent(Student){
+		//TODO:remove a student
+	}
+
+	public void AveragePoints(students){
+		//TODO:method returns average
+	}
+
+	public int signatureCounter(){
+		return count;
+	}
+}
